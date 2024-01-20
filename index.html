@@ -10,5 +10,23 @@
     </head>
     <body>
         <h1>Start Crafting Front-End Cheat Sheets</h1>
+
+        <button data-open-modal>Open Modal</button>
+        <button data-open-dialog>Open Dialog</button>
+
+        <dialog data-modal class="modal">
+            <div>This is a modal</div>
+            <button data-close-modal>Close</button>
+        </dialog>
+
+        <dialog data-dialog class="modal">
+            <form>
+                <input type="text" />
+                <button type="submit">Submit</button>
+                <button type="submit" formmethod="dialog">Cancel</button>
+            </form>
+        </dialog>
+
+        <script type="module" src="/js/index.js"></script>
     </body>
 </html>
